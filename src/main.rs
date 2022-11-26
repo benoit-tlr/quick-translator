@@ -84,5 +84,5 @@ fn main() {
         default_theme: eframe::Theme::Dark,
         run_and_return: true,
     };
-    eframe::run_native("App", options, Box::new(|_| Box::new(app)));
+    eframe::run_native("Quick Translator", options, Box::new(|_| Box::new(app)));
 }
